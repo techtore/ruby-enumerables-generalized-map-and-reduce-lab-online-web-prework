@@ -17,14 +17,9 @@ def reduce (source_array, starting_point)
   
 end 
 
-reduce(source_array, starting_point) do
-  
-  
+reduce(source_array, starting_point) do |t|
+
     yield
-    
-   
-  end
-  reduce
  end
 
 
