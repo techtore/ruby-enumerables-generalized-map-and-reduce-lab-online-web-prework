@@ -12,7 +12,7 @@ def map (source_array)# Your Code Here
   return new_array
 end
 
-def reduce(array)
+def reduce(array, sv=nil)
   
   
 end
