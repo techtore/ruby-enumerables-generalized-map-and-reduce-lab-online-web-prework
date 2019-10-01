@@ -15,7 +15,7 @@ end
 def reduce (source_array, n)
   i = 0
   
-  while i < source_array.count {|source_array, n| total + n}
+  while i < source_array.count {|source_array, n| total + n; !source_array return false}
   
     yield
     
