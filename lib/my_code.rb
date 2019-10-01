@@ -13,7 +13,8 @@ def map (source_array)# Your Code Here
 end
 
 def reduce(array, sv=nil)
-  
+  if sv 
+    sum = array[0]
   
 end
 
