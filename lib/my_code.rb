@@ -12,12 +12,13 @@ def map (source_array)# Your Code Here
   return new_array
 end
 
-def reduce (source_array, starting_point={})
+def reduce (source_array, starting_point=0)
   i = 0
+  total = starting_point
   
   while i < source_array.count do
-    total += source_array[i]
-    yield(source_array)
+    
+    yield(source_array[i += total])
     
     i += 1 
     
