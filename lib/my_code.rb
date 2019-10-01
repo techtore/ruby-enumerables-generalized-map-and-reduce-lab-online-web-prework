@@ -12,15 +12,16 @@ def map (source_array)# Your Code Here
   return new_array
 end
 
-def reduce (source_array, n)
+def reduce (source_array, starting_point)
   i = 0
   
-  while i < source_array.count {|source_array, n| total + n; !source_array return false}
+  while i < source_array.count {|source_array, n| starting_point + n}
   
     yield
     
     i += 1 
   end
+  reduce
  end
 
 
